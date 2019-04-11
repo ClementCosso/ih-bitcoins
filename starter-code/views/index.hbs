@@ -7,6 +7,19 @@
   <body>
     <h1> {{title}} </h1>
     <p>Welcome to  {{title}} </p>
+	<div>
+		<label for="start">Start</label>
+    	<input id="start" type="date">
+	</div>
+	<div>
+		<label for="end">End</label>
+    	<input id="end" type="date">
+	</div>
+    <canvas id="myChart" width="400" height="400"></canvas>
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js" charset="utf-8"></script>
+  <script src="https://momentjs.com/downloads/moment.js" charset="utf-8"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.7.2/dist/Chart.js" charset="utf-8"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.7.2/dist/Chart.bundle.min.js" charset="utf-8"></script>
   <script src="/javascripts/financial-data.js" charset="utf-8"></script>
 </html>
